@@ -1,0 +1,12 @@
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\myBanktest.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\myBanktest.pdb
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\obj\Debug\myBanktest.csprojResolveAssemblyReference.cache
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\obj\Debug\myBanktest.dll
+C:\Users\INTERCORE SOLUTIONS\source\repos\myBank\myBanktest\obj\Debug\myBanktest.pdb

@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    //  Layout = "test.cshtml";
+}
+
+@*
+    <div class="jumbotron">
+        <h1>My Bank and I</h1>
+        <p class="lead">JideBank first ever web-based online ATM, give a try today</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">powered by USAID</a></p>
+    </div>
+*@
+
+<div class="row">
+    <div class="col-md-6 margin-top-20">
+        <a href="@Url.Action("Withdrawal", "Transaction", new { checkingAccountId = ViewBag.CheckingAccountId })" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Withdrawal</a>
+        <a href="@Url.Action("QuickCash", "Transaction", new { checkingAccountId = ViewBag.CheckingAccountId, amount = 100 })" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-flash"></span> Quick Cash $100</a>
+        <a href="@Url.Action("Details", "CheckingAccount")" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-question-sign"></span> Balance Inquiry</a>
+    </div>
+    <div class="col-md-6 margin-top-20">
+        <a href="@Url.Action("Statement", "CheckingAccount", new { id = ViewBag.CheckingAccountId })" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-print"></span> Print Statement</a>
+        <a href="@Url.Action("Transfer", "Transaction", new { checkingAccountId = ViewBag.CheckingAccountId })" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-transfer"></span> Transfer Funds</a>
+        <a href="@Url.Action("Deposit", "Transaction", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposit</a>
+    </div>
+</div>
+
+@ViewBag.Pin
+
+@*
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Register</h2>
+            <p>
+                Open an account with us
+            </p>
+            <p>@Html.ActionLink("Register", "Register", "Account", null, new { @class = "btn btn-default" })</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Logi in</h2>
+            <p>Access your existing account</p>
+            <p>@Html.ActionLink("Login", "Login", "Account", null, new { @class = "btn btn-default" }) </p>
+        </div>
+
+    </div>
+
+    You are working @Request.Browser.Browser, you get!, tweet to us at tweet@@mvc.com
+
+    @{ var amounts = new List<Decimal> { 100, 25.50m, -40, 275.99m };
+
+       }
+
+
+    <ul>
+        @foreach(decimal amount in amounts)
+        {
+            <li>@formatAmount(amount)</li>  @: - jide
+        }
+    </ul>
+        @helper formatAmount(decimal amount)
+        {
+            var color = "green";
+            if (amount < 0)
+        {
+            color = "red";
+        }
+        <span style="color:@color">@string.Format("{0:c}", amount)</span>
+    }*@
